@@ -148,6 +148,10 @@ This project can be deployed on:
 
 Only the app script and the serialized model are necessary for deployment.
 
+The project has been deployed on Streamlit Cloud and can be accessed from below:
+
+https://credit-card-fraud-detection-rqzyjzkqiq9fmumqzreql7.streamlit.app/
+
 ---
 
 ## Future Improvements
