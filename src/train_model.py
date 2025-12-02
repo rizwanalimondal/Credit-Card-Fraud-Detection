@@ -34,5 +34,5 @@ print("ROC-AUC:", roc_auc_score(y_test, model.predict_proba(X_test)[:, 1]))
 print(classification_report(y_test, y_pred))
 
 # Save Model + Scaler
-pickle.dump(model, open("../models/fraud_model.pkl", "wb"))
-pickle.dump(scaler, open("../models/scaler.pkl", "wb"))
+pickle.dump(model, open("fraud_model.pkl", "wb"))
+pickle.dump(scaler, open("scaler.pkl", "wb"))
