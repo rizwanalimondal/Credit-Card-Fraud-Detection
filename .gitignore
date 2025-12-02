@@ -1,4 +1,0 @@
-*.pkl
-data/*.csv
-__pycache__/
-*.log
