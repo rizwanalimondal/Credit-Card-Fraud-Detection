@@ -1,0 +1,43 @@
+# -----------------------------
+# Python cache
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
+venv/
+env/
+.venv/
+
+# -----------------------------
+# OS / Editor junk files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Ignore ALL pickle files EXCEPT model + scaler
+# -----------------------------
+*.pkl
+!models/fraud_model.pkl
+!models/scaler.pkl
+
+# -----------------------------
+# Ignore ALL CSV files EXCEPT dataset
+# -----------------------------
+*.csv
+!data/creditcard.csv
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+
+# -----------------------------
+# Do NOT ignore folders
+# -----------------------------
+!.gitkeep
