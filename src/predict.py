@@ -1,8 +1,8 @@
 import pickle
 import numpy as np
 
-model = pickle.load(open("fraud_model.pkl", "rb"))
-scaler = pickle.load(open("scaler.pkl", "rb"))
+model = pickle.load(open("src/fraud_model.pkl", "rb"))
+scaler = pickle.load(open("src/scaler.pkl", "rb"))
 
 def predict_transaction(features):
     features = np.array(features).reshape(1, -1)
