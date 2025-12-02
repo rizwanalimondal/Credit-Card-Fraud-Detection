@@ -30,7 +30,7 @@ Thumbs.db
 # Ignore ALL CSV files EXCEPT dataset
 # -----------------------------
 *.csv
-!data/creditcard.csv
+data/
 
 # -----------------------------
 # Logs
